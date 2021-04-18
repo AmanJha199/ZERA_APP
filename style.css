@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.navbar {
+    height: 12vh;
+    background-color: black;
+    display: flex;
+}
+.ticket-container {
+    min-height: 88vh;
+    background-color: white;
+    padding: 2rem;
+}
+.filter-container, .add-delete-container {
+    background-color: darkgrey;
+    margin-top: 0.6rem;
+    margin-left: 8vw;
+    height: 8vh;
+    width: 35px;
+    margin-left: 20%;
+    
+}
+.filter-container{
+    width: 18vw;
+    display: flex;
+    border-radius: 6px;
+}
+
+.add-delete-container {
+    width: 20vw;
+    display: flex;
+    /* height: 100%; */
+    padding: 0.7rem;
+    border-radius: 6px;
+   
+}
+
+.filter, .add, .delete  {
+    height: 100%;
+}
+.filter {
+    width: 25%;
+}
+.add, .delete {
+    width: 50%;
+}
+
+.pink-btn,
+.blue-btn,
+.red-btn,
+.green-btn {
+    margin-left: 33%;
+    margin-top: 33%;
+    border-radius: 50%;
+    display: block;
+    width: 34%;
+    height: 34%;
+    
+}
+.pink-btn {
+    background-color: pink;
+}
+.blue-btn {
+    background-color: blue;
+}
+.red-btn {
+    background-color: red;
+}
+.green-btn {
+    background-color: green;
+}
+
+.action-btn-add {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 5px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 12px;
+}
+.action-btn-del {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 12px;
+}
