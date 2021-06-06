@@ -52,12 +52,21 @@ body {
 .filter {
     width: 25%;
 }
+.filter:hover {
+    background-color: black;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.filter.active {
+    background-color: black;
+}
 .add, .delete {
     width: 30%;
     height: 100%;
     display: flex;
     justify-content: space-around;
     text-align: center;
+    cursor: pointer;
     
 }
 
@@ -169,6 +178,9 @@ body {
     width: 15rem;
     background-color: azure;
     /* margin: 0 auto 0 auto; */
+}
+.ticket.active {
+    box-shadow: 0 0 5px 1px;
 }
 .ticket-color {
     height: 8%;
